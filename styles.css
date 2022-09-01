@@ -1,0 +1,173 @@
+a {
+    width: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 7%;
+    color: white;
+}
+
+.cta {
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    padding: auto 5% auto;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-text {
+    font-size: 1.5rem;
+}
+
+.feat-p {
+    color: #8f8f8f;
+}
+
+#footer {
+    background-color: #fff;
+    margin: 5% 7%;
+}
+
+.footer {
+    color: grey;
+    font-family: "Montserrat-Black";
+}
+
+.font-awesome-footer {
+    padding: 1%;
+}
+
+.icons {
+    color: #ef8172;
+    padding: 5%;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.phone {
+    height: 90%;
+    width: 20%;
+    margin-left: 5%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 2.5rem;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-text {
+    font-size: 2.5rem;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+    padding: 2% 10% 5%;
+    text-align: left;
+}
+
+@media(max-width:1028px) {
+    .cta {
+        font-size: 2rem;
+    }
+    .phone {
+        position: static;
+        transform: rotate(0);
+        height: 350px;
+        width: 40%;
+    }
+    #title {
+        text-align: center;
+    }
+}
